@@ -1,0 +1,98 @@
+/* QUI SOMMES NOUS & POURQUOI NOUS CHISIR CSS  CSS */
+
+.qui-sommes-nous,
+.pour-quoi-nous-choisir {
+  width: 100%;
+  height: 500px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pour-quoi-nous-choisir {
+  background-color: #f8c0c015;
+}
+
+.qui-sommes-nous-titre,
+.pour-quoi-nous-choisir-titre {
+  margin-top: 20px;
+  color: #333333;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.qui-sommes-nous-container,
+.pour-quoi-nous-choisir-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.qui-sommes-nous-texte,
+.pour-quoi-nous-choisir-texte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 90%;
+  text-align: left;
+  font-size: 18px;
+  line-height: 28.8px;
+  font-weight: 300;
+}
+
+.qui-sommes-nous-image,
+.pour-quoi-nous-choisir-image {
+  margin-left: 0 auto;
+  height: 90%;
+  width: 90%;
+}
+/*--------------------- MEDIAS QUERIES------------------ */
+
+@media (max-width: 960px) {
+  .qui-sommes-nous,
+  .pour-quoi-nous-choisir {
+    width: 100%;
+    height: 100vh;
+    padding: 10px 20px;
+  }
+
+  .qui-sommes-nous-titre,
+  .pour-quoi-nous-choisir-titre {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .qui-sommes-nous-container,
+  .pour-quoi-nous-choisir-container {
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+  }
+
+  .qui-sommes-nous-texte,
+  .pour-quoi-nous-choisir-texte {
+    width: 100%;
+    height: 60%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20.8px;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+
+  .pour-quoi-nous-choisir-image {
+    margin-top: 20px;
+    margin-left: 0 auto;
+    height: 80%;
+    width: 80%;
+  }
+}
+
+/*--------------------- FIN MEDIAS QUERIES------------------ */
+
+/* FIN QUI SOMMES NOUS & POURQUOI NOUS CHISIR CSS */

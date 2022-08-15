@@ -1,0 +1,33 @@
+.btn {
+  padding: 13px 28px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn--primary {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn--outline:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn--primary:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+@media (max-width: 960px) {
+  .btn {
+    font-size: 10px;
+  }
+}
