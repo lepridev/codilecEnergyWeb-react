@@ -9,10 +9,10 @@ import courantFaible from "../../assets/courantFaible.png";
 import reseauBt from "../../assets/reseau_bt_1_bis.jpg";
 import groupeGaz from "../../assets/groupeGaz.jpeg";
 
-const Services = () => {
+const Services = ({ titre }) => {
   return (
     <div className="services">
-      <h1 className="services-titre"> Nos Services</h1>
+      <h1 className="services-titre"> {titre}</h1>
       <div className="services-container">
         <div className="services-cards-container">
           <ul className="services-cards">

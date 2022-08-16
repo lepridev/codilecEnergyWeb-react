@@ -1,0 +1,86 @@
+.description-apropos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding: 3rem;
+}
+
+.description-apropos .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 90%;
+}
+
+.right,
+.left {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  height: 90%;
+  padding: 20px;
+}
+
+.right {
+  background: #1689b3;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.left > h2 {
+  color: #333;
+  margin-bottom: 18px;
+  align-self: flex-start;
+}
+
+.left > p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.right > p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media (max-width: 960px) {
+  .description-apropos {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .description-apropos .right {
+    width: 100%;
+    height: 50%;
+    border-radius: 0;
+    padding: 0 20px;
+  }
+
+  .description-apropos .left {
+    width: 100%;
+    height: 50%;
+  }
+
+  .description-apropos .left > h2 {
+    font-size: 15px;
+  }
+  .description-apropos .left > p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .description-apropos .right > p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,54 @@
+.nos-fournisseurs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  padding: 20px 0;
+}
+
+.nos-fournisseurs > h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  height: 10%;
+}
+
+.nos-fournisseur-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 90%;
+  width: 100%;
+}
+
+.nos-fournisseur-container > img {
+  width: 70%;
+}
+
+@media (max-width: 960px) {
+  .nos-fournisseurs {
+    height: 300px;
+    padding: 20px 0;
+  }
+
+  .nos-fournisseurs > h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    height: 10%;
+  }
+
+  .nos-fournisseur-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+  }
+
+  .nos-fournisseur-container > img {
+    width: 90%;
+  }
+}

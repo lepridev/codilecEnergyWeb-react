@@ -1,17 +1,16 @@
 import React from "react";
 import HeroSection from "../../components/heroSection/HeroSection";
-import Navbar from "../../components/navbar/Navbar";
 import Section from "../../components/Section";
 import image from "../../assets/quisommesnous.png";
 import cieSchneider from "../../assets/cieSchneider.png";
 import Services from "../../components/sectionServices/Services";
 import SectionImageCentre from "../../components/SectionImageCentre";
-import Footer from "../../components/footer/Footer";
+import ButtonTop from "../../components/ButtonTop";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <ButtonTop />
       <HeroSection />
       <Section
         section="qui-sommes-nous"
@@ -29,7 +28,7 @@ const Home = () => {
         
         SERVICES DE QUALITE PAR DES PROFESSIONNELS QUALIFIES ET COMPETENTS"
       />
-      <Services />
+      <Services titre="Nos Services" />
       <Section
         section="pour-quoi-nous-choisir"
         titre="Pourquoi nous choisir ?"
@@ -41,7 +40,6 @@ const Home = () => {
         Ensemble, nous réalisons vos projets avec les solutions les mieux adaptées: une qualité d'exécution optimale et constante, une mise à disposition rapide, des prix compétitifs, une garantie de bon fonctionnement."
       />
       <SectionImageCentre />
-      <Footer />
     </div>
   );
 };

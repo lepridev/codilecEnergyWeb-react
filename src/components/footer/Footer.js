@@ -34,7 +34,7 @@ const Footer = () => {
               cols="33"
               placeholder="Votre Message"
             ></textarea>
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <Button buttonStyle="btn--outline">Envoyer</Button>
           </form>
         </div>
       </section>

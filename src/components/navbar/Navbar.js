@@ -78,7 +78,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/nos-realisation"
+                to="/nos-realisations"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -100,11 +100,11 @@ const Navbar = () => {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                CONNEXION
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && <Button buttonStyle="btn--outline">CONNEXION</Button>}
         </div>
       </nav>
     </>
