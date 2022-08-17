@@ -1,9 +1,12 @@
 import React from "react";
+import Tableau from "./Tableau";
+import PageHeader from "../../components/PageHeader";
 
 const NosRealisations = () => {
   return (
     <div>
-      <h1>nos realisation</h1>
+      <PageHeader titre="Nos Réalisations" page="nos-realisations" />
+      <Tableau />
     </div>
   );
 };

@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
 }
 
 .footer-subscription {
@@ -21,8 +23,7 @@
 }
 
 .footer-subscription > p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-subscription-heading {
@@ -93,10 +94,12 @@ textarea {
 
 .large > h3 {
   margin-top: 15px;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-link-items h2 {
   margin-bottom: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-link-items > h2 {

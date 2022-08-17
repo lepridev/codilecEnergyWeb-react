@@ -4,9 +4,16 @@ import "./Button.css";
 import "./SectionImageCentre.css";
 
 const SectionImageCentre = () => {
+  const goTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="section-image-centre">
-      <div className="section-image-centre-description">
+      <div className="section-image-centre-description" onClick={goTop}>
         <h3 className="section-image-centre-description-titre">
           L’expertise de professionnels pour tous les marchés
         </h3>
@@ -16,7 +23,7 @@ const SectionImageCentre = () => {
           nous font confiance pour l’installation, la maintenance et le
           dépannage de leurs équipements électriques.
         </p>
-        <Button>NOS REALISATIONS</Button>
+        <Button lien={"nos-realisations"}>NOS REALISATIONS</Button>
       </div>
     </div>
   );

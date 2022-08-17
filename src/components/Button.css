@@ -6,6 +6,11 @@
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .btn--primary {
   background-color: #fff;
   color: #000;

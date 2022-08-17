@@ -4,6 +4,14 @@ import Button from "../Button";
 import "./Footer.css";
 
 const Footer = () => {
+  const goTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="footer-container">
       <section className="footer-subscription">
@@ -28,6 +36,12 @@ const Footer = () => {
               type="email"
               placeholder="Votre Email"
             />
+            <input
+              className="footer-input"
+              name="phone"
+              type="phone"
+              placeholder="Votre Téléphone"
+            />
             <textarea
               name="message"
               rows="5"
@@ -42,15 +56,21 @@ const Footer = () => {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>A-Propos</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link onClick={goTop} to="/nos-prestations">
+              Nos Prestatins
+            </Link>
+            <Link onClick={goTop} to="/nos-realisations">
+              Nos Références
+            </Link>
+            <Link onClick={goTop} to="/apropos">
+              Qui Sommes nous ?
+            </Link>
+            <Link to="/contact">Terms of Service</Link>
           </div>
           <div class="footer-link-items large">
             <h2>Nos Contacts</h2>
             <p>+225 27 23 43 74 66</p>
+            <p>+225 07 03 08 92 51</p>
             <p>codilec.energy@africap-group.com</p>
             <h3>Horaires d'Ouverture</h3>
             <p>Du Lundi au Vendredi</p>

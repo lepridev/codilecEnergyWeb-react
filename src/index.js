@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import NosPrestations from "./pages/nosPrestations/NosPrestations";
 import NosRealisations from "./pages/nosRealisations/NosRealisations";
+import Contact from "./pages/contact/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +25,9 @@ root.render(
       </Routes>
       <Routes>
         <Route path="/nos-realisations" element={<NosRealisations />} />
+      </Routes>
+      <Routes>
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

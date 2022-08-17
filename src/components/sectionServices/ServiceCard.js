@@ -7,7 +7,7 @@ const ServiceCard = ({ titre, lien, link, texte }) => {
   return (
     <>
       <li className="cards-item">
-        <Link className="cards-item-link" to="/services">
+        <Link className="cards-item-link" to="/nos-prestations">
           <figure className="cards-item-pic-wrap" data-category={titre}>
             <img
               src={lien}

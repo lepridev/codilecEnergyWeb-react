@@ -1,4 +1,6 @@
 .a-propos-header,
+.contact-header,
+.nos-realisations-header,
 .nos-prestations-header {
   display: flex;
   justify-content: center;
@@ -12,20 +14,26 @@
 }
 
 .a-propos-header > h1,
+.contact-header > h1,
+.nos-realisations-header > h1,
 .nos-prestations-header > h1 {
   font-family: "Roboto", sans-serif;
   font-size: 60px;
   font-weight: 300;
-  color: #fff;
+  color: #ffffff;
 }
 
 @media (max-width: 960px) {
   .a-propos-header,
+  .contact-header,
+  .nos-realisations-header,
   .nos-prestations-header {
     height: 200px;
   }
 
   .a-propos-header > h1,
+  .contact-header > h1,
+  .nos-realisations-header > h1,
   .nos-prestations-header > h1 {
     font-size: 40px;
   }

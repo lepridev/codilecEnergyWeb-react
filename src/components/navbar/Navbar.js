@@ -104,7 +104,11 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">CONNEXION</Button>}
+          {button && (
+            <Button lien="contact" buttonStyle="btn--outline">
+              CONNEXION
+            </Button>
+          )}
         </div>
       </nav>
     </>

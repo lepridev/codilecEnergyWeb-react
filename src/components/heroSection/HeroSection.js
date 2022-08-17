@@ -29,10 +29,14 @@ const HeroSection = () => {
         RENOUVELABLES
       </p>
       <div className="hero-btns">
-        <Button className="btn" buttonStyle="btn--outline">
+        <Button className="btn" buttonStyle="btn--outline" lien={"contact"}>
           Demandez un devis
         </Button>
-        <Button className="btn" buttonStyle="btn--primary">
+        <Button
+          className="btn"
+          buttonStyle="btn--primary"
+          lien={"nos-prestations"}
+        >
           En savoir plus
         </Button>
       </div>
